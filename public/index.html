@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>d3 Words</title>
+	<link rel="stylesheet" href="css/d3-words.css">
+	<script src="lib/jquery-1.11.0.min.js"></script>
+	<script src="lib/d3.min.js" charset="utf-8"></script>
+	<script src="lib/d3.layout.cloud.js"></script>
+	<script src="http://viralpatel.net/blogs/demo/jquery/get-text-without-child-element/jquery.justtext.1.0.js"></script>
+	<script src="js/d3-words.js"></script>
+</head>
+<body>
+	<section id="settings">
+		<form id="settings-form">
+			<fieldset>
+				<input id="url-input" type="text" name="url" placeholder="Your favorite URL">
+				<button id="go-button" type="submit">Go!</button>
+			</fieldset>
+		</form>
+		<button id="click-me-button" class="one-edge-shadow" type="submit">Click Me</button>
+	</section>
+	<div id="words-container"></div>
+</body>
+</html>
