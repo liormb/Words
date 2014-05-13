@@ -7,7 +7,10 @@ gem 'httparty'
 gem 'pry-rails'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# gem 'sqlite3'
+group :development, :test do # <<<< :development, not devlopment
+  gem 'sqlite3'
+end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
